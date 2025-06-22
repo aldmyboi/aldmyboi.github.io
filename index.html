@@ -1,54 +1,85 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>ald&#39;s website</title>
-  <title
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-/li<html>
+<html>
   
  <head> 
-  <title>Ald's epic website!</title>
-   <style>
-     body {
+  <title>Aldmyboi's website!</title>
+  <style>
+         body {
   background-color: #ffe3fd;
+  margin: 0 auto;
 }
 
 h1 {
   color: #ff87f5;
-  margin-left: 20px;
-  font-family: helvetica;
+  margin-left: 0 auto;
+  font-family: molot;
+    @font-face { font-family: molot; src:       url('fonts/molot'); }
+  
 }
 h2 {
   color: #ff87f5;
-  margin-left: 20px;
-  font-family: helvetica;
+  margin-left: 0 auto;
+  font-family: molot;
 }
 li {
   color: #ff87f5;
-  margin-left: 20px;
-  font-family: helvetica;
+  margin-left: 0 auto;
+  font-family: molot;
 }
-   </style>
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  }
+    </style>
+   
   </head>
-  
 <body>
-<h1>Ald<h1>
- <h1>hello, i am aldmyboi, i am a minor, i like video games, making AND playing them, how cool hahha!!, i am currently working on a game called "galdfo" and i will try to keep you guys updated on it</h1>
+ <div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'AboutMe')">About Me</button>
+  <button class="tablinks" onclick="openTab(event, 'Galdfo')">Galdfo</button>
+</div>
+<div id="AboutMe" class="tabcontent">
+<h1>About Me<h1>
+<li>Minor</ul>
+<li>pronouns:Any</ul>
+<h3>Aldmyboi<h3>
 <ul>
   <li>pronouns:Any
   </li>
- 
+  </div>
    
   <li>main youtube channel: <a href="https://www.youtube.com/channel/UCNFB-1572zwayxQ3YtckRqw"> @aldmyboi</a> </li>
   <li>twitter: <a href="https://www.twitter.com/aldmyboi"> aldmyboi </a> </li>
     </ul>
-</body>
-</html>
-<!-- partial -->
-  
+<div id="Galdfo" class="tabconten">
+  <h1>Galdfo is a game<h1>
+    </div>
+
 </body>
 </html>

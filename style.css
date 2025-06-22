@@ -1,0 +1,26 @@
+     body {
+  background-color: #ffe3fd;
+}
+
+h1 {
+  color: #ff87f5;
+  margin-left: 20px;
+  font-family: molot;
+    @font-face { font-family: molot; src:       url('https://dl.dafont.com/dl/?f=molot'); } 
+}
+h2 {
+  color: #ff87f5;
+  margin-left: 20px;
+  font-family: helvetica;
+}
+li {
+  color: #ff87f5;
+  margin-left: 20px;
+  font-family: helvetica;
+  
+  body {
+    width: 2000px;
+    margin:0 auto;
+      
+  }
+}
