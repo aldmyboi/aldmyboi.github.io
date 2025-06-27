@@ -1,4 +1,3 @@
-
 function openTab(evt, Tabname) {
   // Declare all variables
   var i, tabcontent, tablinks;
