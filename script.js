@@ -18,4 +18,5 @@ function openTab(evt, Tabname) {
 
   document.getElementById(Tabname).style.display = "block";
   evt.currentTarget.className += " active";
+  document.GetElementById("DefaultOpen").click();
 }
